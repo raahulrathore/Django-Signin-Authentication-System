@@ -1,1 +1,1 @@
-web: gunicorn userproject.wsgi --log-file -
+web: waitress-serve --port=$PORT userproject.wsgi:applicationGIT A
