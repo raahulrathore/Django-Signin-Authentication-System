@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
 from django.contrib.auth import logout,authenticate,login
 
-#cred for rahul rahul@@11##
 # Create your views here.
 def index(request):
     if request.user.is_anonymous:
